@@ -10,16 +10,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/estilo.css" />
+    <link rel="stylesheet" href="assets/css/exercicio.css" />
     <title>Exercício PHP</title>
   </head>
-  <body>
+  <body class="exercicio">
       <header class="cabecalho">
         <h1>Curso PHP</h1>
         <h2>Visualização do Exercício</h2>
       </header>
+      <nav class="navegacao">
+        <a href="<?php echo "{$_GET['dir']}/{$_GET['file']}.php"; ?>" class="verde"> sem formatacão</a>
+        <a href="index.php" class="vermelho"> voltar</a>
+      </nav>
       <main class=" principal">
         <div class="conteudo">
-          
+          <?php
+               // include($_GET['dir'].'/' .$_GET['file'].'.php');
+               //{$_GET[dir]}
+               //{$_GET[file]}
+
+                  include("{$_GET['dir']}/{$_GET['file']}.php");
+          ?>
         </div>
       </main>
       <footer class="rodape">

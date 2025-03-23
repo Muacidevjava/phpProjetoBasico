@@ -96,7 +96,7 @@
         </div>
       </main>
       <footer class="rodape">
-        MUACI &copy; 2025
+        MUACI &copy; <?= date('Y'); ?>
       </footer>
 
 

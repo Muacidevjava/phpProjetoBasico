@@ -25,6 +25,7 @@
               <ul>
                 <li><a href="exercicio.php?dir=teste&file=teste">Exercício teste</a></li>
                 <li><a href="exercicio.php?dir=basico&file=ola">Exercício Olá PHP</a></li>
+                <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
               </ul>
             </div>
           </nav>

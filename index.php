@@ -44,6 +44,19 @@
                   <li><a href="exercicio.php?dir=tipos&file=conversoes">Conversões</a></li>
                 </ul>
               </div>
+              <div class="modulo azul">
+                <h3>Variaveis</h3>
+                <ul>
+                  <li><a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a></li>
+                  <li><a href="exercicio.php?dir=variaveis&file=desafio">Desafio</a></li>
+                  <li><a href="exercicio.php?dir=variaveis&file=atribuicao">Atribuição</a></li> 
+                  <li><a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolação</a></li>
+                  <li><a href="exercicio.php?dir=variaveis&file=var_variaveis">Variaveis Variáveis</a></li>
+                  <li><a href="exercicio.php?dir=variaveis&file=desafio_variavel">Desafio</a></li>
+                  <li><a href="exercicio.php?dir=variaveis&file=valor_referencia">Valor vs Referência</a></li>
+                  <li><a href="exercicio.php?dir=variaveis&file=constante">Constantes</a></li> 
+                </ul>
+                </div>  
           </nav>
         </div>
       </main>

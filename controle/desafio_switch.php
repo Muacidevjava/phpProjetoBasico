@@ -7,6 +7,8 @@
      <option value="metro-km">Metros para Km</option>
      <option value="km-metro">Km para Metros</option>
      <option value="metro-centimetros">Metros para Centimetros</option>
+     <option value="farenheit-celsius">farenhit para Celsius</option>
+     <option value="celsius-farenheit">Celsius para Farenheit</option>
      </select>
     <button>Executar</button>
   </form>
@@ -37,6 +39,12 @@
       break;
     case 'metro-centimetros':
       echo $param . ' Metros equivale a  ' . $param * 100 . ' Centimetros';
+      break;
+    case 'farenheit-celsius':
+      echo $param . ' Farenheit equivale a  ' . ($param - 32) / 1.8 . 'º Celsius';
+      break;
+    case 'celsius-farenheit':
+      echo $param . ' Celsius equivale a  ' . ($param * 1.8) + 32 . 'º Farenheit';
       break;
     default:
       echo 'Nenhuma opcao selecionada';

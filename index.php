@@ -15,7 +15,7 @@
   <body>
       <header class="cabecalho">
         <h1>Curso PHP</h1>
-        <h2>Índice dos Exercícios</h2>
+        <h2>Índice das Aulas</h2>
       </header>
       <main class=" principal">
         <div class="conteudo">
@@ -44,7 +44,7 @@
                   <li><a href="exercicio.php?dir=tipos&file=conversoes">Conversões</a></li>
                 </ul>
               </div>
-              <div class="modulo azul">
+              <div class="modulo azul ">
                 <h3>Variaveis</h3>
                 <ul>
                   <li><a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a></li>
@@ -56,6 +56,24 @@
                   <li><a href="exercicio.php?dir=variaveis&file=valor_referencia">Valor vs Referência</a></li>
                   <li><a href="exercicio.php?dir=variaveis&file=constante">Constantes</a></li> 
                 </ul>
+                </div>  
+                <div class="modulo roxo">
+                  <h3>Controle</h3>
+                  <ul>
+                    <li><a href="exercicio.php?dir=controle&file=if_else">if/else</a></li>
+                    <li><a href="exercicio.php?dir=controle&file=operador-relacionais">Operadores Relacionais</a></li>
+                    <li><a href="exercicio.php?dir=controle&file=desafio_pi">Desafio PI</a></li>
+                    <li><a href="exercicio.php?dir=controle&file=operadores_logicos">Operadores Logicos</a></li>
+                    <li><a href="exercicio.php?dir=controle&file=desafio_operadores">Desafio Operadores</a></li>
+                    <li><a href="exercicio.php?dir=controle&file=switch">Switch</a></li> <li><a href="exercicio.php?dir=controle&file=operador_ternario">Operador Ternário</a></a></li>
+                    <li><a href="exercicio.php?dir=controle&file=desafio_switch">Desafio Switch</a></li>
+                  </ul >
+                </div>
+                <div class="modulo laranja">
+                  <h3>Array</h3>
+                  <ul>
+                    <li><a href="exercicio.php?dir=array&file=basico">Array</a></li>
+                  </ul>
                 </div>  
           </nav>
         </div>

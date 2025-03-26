@@ -73,6 +73,16 @@
                   <h3>Array</h3>
                   <ul>
                     <li><a href="exercicio.php?dir=array&file=basico">Array</a></li>
+                    <li><a href="exercicio.php?dir=array&file=array_mapa">Array Mapa</a></li>
+                    <li><a href="exercicio.php?dir=array&file=desafio_index">Desafio Index</a></li>
+                    <li><a href="exercicio.php?dir=array&file=desafio_meses">Desafio Meses</a></li>
+                    <li><a href="exercicio.php?dir=array&file=operacoes">Operaçoes</a></li>
+                    <li><a href="exercicio.php?dir=array&file=desafio_sorteio">Desafio Sorteio</a></li>
+                    <li><a href="exercicio.php?dir=array&file=array_mult_dimencional">Array Multidimensional</a></li>
+                    <li><a href="exercicio.php?dir=array&file=array_const">Array Constante</a></li>
+                    <li><a href="exercicio.php?dir=array&file=array-Get">$_GET</a></li>
+                     <li><a href="exercicio.php?dir=array&file=array_post">$_POST</a></a></li>
+                     <li><a href="exercicio.php?dir=array&file=comparacao">Comparação</a></li>
                   </ul>
                 </div>  
           </nav>
